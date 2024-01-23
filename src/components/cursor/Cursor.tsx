@@ -18,7 +18,7 @@ const Cursor = () => {
   return (
     <>
       <div
-        className="cursor small"
+        className="cursor"
         style={{
           transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
         }}

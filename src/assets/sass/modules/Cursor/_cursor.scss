@@ -5,16 +5,9 @@
     left: 0;
     pointer-events: none;
 
-    &.small {
-        width: 5px;
-        height: 5px;
-        border: 2px solid $white;
-        border-radius: 50%;
-
-    }
-
-    &.hover {
-
-        border: 2px solid $green;
-    }
+    width: 20px;
+    height: 20px;
+    border: 2px solid $payne-gray;
+    border-radius: 50%;
+    background-color: rgba($night, 0.5);
 }
