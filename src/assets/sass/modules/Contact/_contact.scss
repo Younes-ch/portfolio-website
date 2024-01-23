@@ -1,0 +1,48 @@
+.contact-sc {
+    
+    animation: $fade-in;
+    animation-fill-mode: forwards;
+    margin-bottom: 40px;
+
+    .contact-content {
+
+        padding-bottom: 20px;
+        position: relative;
+
+        & > .dots-shape {
+            position: absolute;
+            left: -10px;
+            bottom: 0;
+        }
+    }
+
+    .contact-list {
+        
+        form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 12px;
+            column-gap: 30px;
+            padding: 16px 0;
+            width: 50%;
+
+            
+            & > *:nth-child(n + 3):not(:last-child) {
+                grid-column: span 2;
+            }
+
+            & > *:last-child {
+                grid-column: 2;
+            }
+
+            @media(max-width: 576px) {
+                width: 100%;
+                * {
+                    grid-column: span 2;
+                }
+            }
+        }
+
+    }
+
+}

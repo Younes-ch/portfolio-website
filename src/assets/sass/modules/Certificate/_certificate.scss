@@ -1,0 +1,66 @@
+.certificate-sc {
+
+    animation: $fade-in;
+    animation-fill-mode: forwards;
+    
+    .certificate-list {
+        gap: 12px;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 24px;
+        padding: 16px 0;
+        
+    }
+    
+    .certificate-icon {
+        width: 40px;
+    }
+    
+    .certificate-item {
+        column-gap: 16px;
+        grid-template-columns: 40px auto;
+        margin: 12px 0;
+    }
+
+    .certificate-provider {
+        color: $gray;
+        font-weight: 500;
+    }
+
+    .certificate-course {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .certificate-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 15px;
+        color: $payne-gray;
+
+        &:hover {
+            color: $green;
+            text-decoration: underline;
+        }
+    }
+
+
+    .certificate-info {
+        grid-template-columns: 2fr 1fr;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 100%;
+        }
+    }
+
+    .certificate-info-r {
+        color: $gray;
+        font-size: 15px;
+
+        @media (max-width: 768px) {
+            justify-content: flex-start;
+        }
+    }
+}

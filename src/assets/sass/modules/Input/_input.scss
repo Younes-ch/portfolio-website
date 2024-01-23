@@ -1,0 +1,22 @@
+.input {
+    
+    margin-bottom: 20px;
+    font-family: $font-primary;
+    border: 1px solid $payne-gray;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    transition: $transition-default;
+    cursor: none;
+    
+    &:focus,
+    &:active,
+    &:hover {
+        scale: 1.01;
+        outline: none;
+    }
+}

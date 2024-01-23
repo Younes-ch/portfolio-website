@@ -1,0 +1,52 @@
+.skill-sc {
+
+    animation: $fade-in;
+    animation-fill-mode: forwards;
+
+    .skill-list {
+        display: grid;
+        column-gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 24px;
+        padding: 16px 0;
+
+        @media(max-width: 992px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media(max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media(max-width: 576px) {
+            grid-template-columns: 100%;
+        }
+
+        .skill-item {
+            padding: 16px 8px;
+            background-color: #202226;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0px;
+            margin: 12px 0;
+            transition: $transition-default;
+
+            &:hover {
+                scale: 1.05;
+                box-shadow: rgba(0, 0, 0, 0.25) 0 5px 15px 2px;
+            }
+
+            .skill-icon {
+                width: 40px;
+                margin: 6px auto 12px auto;
+            }
+
+            @media(max-width: 992px) {
+                margin: 6px 0;
+            }
+        }
+
+        .skill-name {
+            margin-bottom: 6px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.Toastify__toast {
+    font-family: $font-primary!important;
+
+    &-theme--dark {
+        background: $green!important;
+        color: $white!important;
+    
+        .Toastify__toast-icon > svg {
+            fill: $white!important;
+        }
+    
+        .Toastify__progress-bar--success {
+            background: $white!important;
+        }
+    }
+    
+    &--error {
+        background: $red!important;
+        color: $white!important;
+    
+        .Toastify__toast-icon > svg {
+            fill: $white!important;
+        }
+    
+        .Toastify__progress-bar--error {
+            background: $white!important;
+        }
+    }
+}
+
+
