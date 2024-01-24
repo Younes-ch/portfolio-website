@@ -12,7 +12,7 @@ const Header = () => {
           <div className="header-intro">
             <div className="flex items-end header-intro-wrapper">
               <img src={AvatarPNG} alt="avatar" className="avatar" />
-              <h1 className="header-name text-white">
+              <h1 className="header-name">
                 Younes Chouikh, <br />
                 Software Developer
               </h1>
