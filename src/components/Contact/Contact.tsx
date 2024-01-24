@@ -33,8 +33,7 @@ const Contact = () => {
           render() {
             return "Sending Message...";
           },
-          draggable: true,
-          draggableDirection: "x",
+          draggable: false,
           transition: Slide,
           position: "bottom-right",
           theme: "dark",
@@ -43,6 +42,8 @@ const Contact = () => {
           render() {
             return "Message sent!";
           },
+          draggable: true,
+          draggableDirection: "x",
         },
         error: {
           render() {
