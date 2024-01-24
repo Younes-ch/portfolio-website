@@ -134,6 +134,10 @@ const DATA = {
           label: "View source",
           url: "https://github.com/Younes-ch/gdsc-discord-bot",
         },
+        {
+          label: "View demo",
+          url: "https://github.com/Younes-ch/GDSC-Discord-Bot/assets/56512077/668fa085-d7de-4586-b090-781fee02e366",
+        }
       ],
       tags: [
         "Python",
