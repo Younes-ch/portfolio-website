@@ -29,10 +29,21 @@
             box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0px;
             margin: 12px 0;
             transition: $transition-default;
+            transform: translateY(-3px);
 
             &:hover {
-                scale: 1.05;
+                animation: float 0.5s linear infinite;
                 box-shadow: rgba(0, 0, 0, 0.25) 0 5px 15px 2px;
+            }
+
+            @keyframes float {
+                from {
+                    transform: rotate(0deg) translateY(-3px) rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg) translateY(-3px) rotate(-360deg);
+                }
             }
 
             .skill-icon {
