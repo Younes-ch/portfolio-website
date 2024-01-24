@@ -33,6 +33,18 @@ body {
   color: #f7f7f7;
 }
 
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+}
+
 @media(max-width: 420px){
 
   p {
