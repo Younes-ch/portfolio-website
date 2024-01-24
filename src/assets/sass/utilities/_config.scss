@@ -11,3 +11,13 @@ $payne-gray:#585d6c;
 $transition-default: all 300ms ease-in-out;
 $shadow-default: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 $fade-in: fadeIn 1s;
+$shine: shine 2s linear infinite;
+
+@keyframes shine {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
+}
