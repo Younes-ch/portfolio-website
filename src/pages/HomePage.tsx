@@ -1,8 +1,6 @@
 import Contact from "../components/Contact/Contact";
 import Activities from "../components/activities/Activities";
-import BackgroundEffect from "../components/backgroundEffect/BackgroundEffect";
 import Certificate from "../components/certificate/Certificate";
-import Cursor from "../components/cursor/Cursor";
 import Education from "../components/education/Education";
 // import Experience from "../components/experience/Experience";
 import Header from "../components/header/Header";
@@ -22,8 +20,6 @@ const HomePage = () => {
       <Certificate />
       <Hobbies />
       <Contact />
-      <BackgroundEffect />
-      <Cursor />
     </div>
   );
 };
