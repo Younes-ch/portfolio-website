@@ -1,5 +1,7 @@
 .button {
-    background-color: $green;
+    background-image: linear-gradient(to right, #007a25, #09852e, #1dd153, #007a25);
+    background-size: 200%;
+    animation: $shine;
     color: $white;
     border: none;
     border-radius: 8px;
@@ -14,9 +16,7 @@
     cursor: none;
 
     &:hover {
-        background-color: $white;
-        color: $green;
-        scale: 1.01;
+        scale: 1.03;
         box-shadow: rgba(0, 0, 0, 0.25) 0 5px 15px 2px;
     }
     
