@@ -89,6 +89,24 @@ const DATA = {
   projects: [
     {
       id: "project_1",
+      title: "ISSATSo Schedule Scrapper",
+      description:
+        "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session.",
+      finishDate: "Feb 2024",
+      links: [
+        {
+          label: "View source",
+          url: "https://github.com/Younes-ch/issatso-schedule-scrapper",
+        },
+        {
+          label: "View demo",
+          url: "https://win-nerkech.vercel.app/",
+        },
+      ],
+      tags: ["Python", "Typescript", "Django", "Django REST Framework", "React", "BeautifulSoup", "HTML", "TailwindCSS", "CSS", "Git", "Docker", "Azure"],
+    },
+    {
+      id: "project_2",
       title: "Image Gallery",
       description:
         "Image Gallery is an image discovery web app that helps you find new and interesting images to download or share. With Image Gallery, you can search for images by term and type and order them by most popular or latest.",
@@ -106,7 +124,7 @@ const DATA = {
       tags: ["React", "Typescript", "TailwindCSS", "HTML", "CSS", "Git"],
     },
     {
-      id: "project_2",
+      id: "project_3",
       title: "Todo Mobile Application",
       description:
         "This Android application provides a user-friendly platform for managing tasks while incorporating authentication and local storage mechanisms for enhanced security and data persistence. The app has a French and an English version",
@@ -124,7 +142,7 @@ const DATA = {
       tags: ["Java", "Android SDK", "Android Studio", "XML", "SQLite", "Git"],
     },
     {
-      id: "project_3",
+      id: "project_4",
       title: "GDSC Discord Bot",
       description:
         "A private general-purpose Discord bot made to organize the Discord server of a volunteer activities club.",
@@ -149,20 +167,6 @@ const DATA = {
         "Git",
         "Azure",
       ],
-    },
-    {
-      id: "project_4",
-      title: "Schedule Scrapper",
-      description:
-        " A web application that fetches schedules of my university (ISSATSo) and checks for available classrooms on a given day and session.",
-      finishDate: "Nov 2022",
-      links: [
-        {
-          label: "View source",
-          url: "https://github.com/Younes-ch/university-schedule-scrapper",
-        },
-      ],
-      tags: ["Python", "Django", "BeautifulSoup", "HTML", "CSS", "Git"],
     },
     {
       id: "project_5",
