@@ -30,6 +30,7 @@ import Git from "./images/git.svg";
 import Docker from "./images/docker.svg";
 import FreeCodeCamp from "./images/freecodecamp.png";
 import Microsoft from "./images/microsoft.png";
+import Proxym from "./images/proxym.png";
 import KodeKloud from "./images/kodekloud.png";
 import Cisco from "./images/cisco.png";
 import Coursera from "./images/coursera.png";
@@ -71,6 +72,7 @@ export {
   Docker,
   FreeCodeCamp,
   Microsoft,
+  Proxym,
   KodeKloud,
   Cisco,
   Coursera,

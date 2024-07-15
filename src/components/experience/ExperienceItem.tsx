@@ -58,7 +58,11 @@ const ExperienceItem = ({ item }: ExperienceItemProps) => {
         <p className="company-name">{item.company.name}</p>
         <p className="company-info">{item.company.info}</p>
       </div>
-      <p className="exp-description text">{item.description}</p>
+      <div className="exp-description text">
+        {item.description.split("\n").map((i, key) => {
+          return <p key={key}>{i}</p>;
+        })}
+      </div>
       <div className="exp-links">
         {item.links.map((link) => (
           <a

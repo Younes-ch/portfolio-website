@@ -1,6 +1,6 @@
-// import DATA from "../../constants/data";
+import DATA from "../../constants/data";
 import Title from "../common/Title";
-// import ExperienceItem from "./ExperienceItem";
+import ExperienceItem from "./ExperienceItem";
 
 const Experience = () => {
   return (
@@ -9,9 +9,9 @@ const Experience = () => {
         <div className="experience-content dotted-border-left">
           <Title titleText="Professional Experience" />
           <div className="experience-list grid">
-            {/* {DATA.professionalExperiences.map((experience) => (
+            {DATA.professionalExperiences.map((experience) => (
               <ExperienceItem key={experience.id} item={experience} />
-            ))} */}
+            ))}
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ import {
   CSharp,
   Swimming,
   Microsoft,
+  Proxym,
   FreeCodeCamp,
   KodeKloud,
   Cisco,
@@ -68,8 +69,8 @@ const DATA = {
     {
       id: "edu_1",
       icon: DiamondLgBlue,
-      course: "Computer Science: Algorithms and Data Structures",
-      institution: "El Mourouj 6",
+      course: "Baccaluareate Degree in Computer Science",
+      institution: "El Mourouj 6, Ehdeth",
       degree: "High school diploma",
       startDate: "2017",
       endDate: "2021",
@@ -77,7 +78,7 @@ const DATA = {
     {
       id: "edu_2",
       icon: DiamondLgGreen,
-      course: "Software Engineering",
+      course: "Software Engineering and Information Systems",
       institution:
         "Higher Institute of Applied Sciences and Technology of Sousse",
       degree: "Bachelor's degree",
@@ -85,7 +86,28 @@ const DATA = {
       endDate: "2024",
     },
   ],
-  professionalExperiences: [],
+  professionalExperiences: [
+    {
+      id: "prof_1",
+      startDate: "Feb 2024",
+      endDate: "Jun 2024",
+      position: "Software Developer Intern",
+      diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
+      company: {
+        logo: Proxym,
+        name: "Proxym",
+        info: "Sousse, Tunisia",
+      },
+      description:
+        "Design and Develop a Crowdfunding platform for startups:\n ● The platform creates a new channel for startups to pich their idea and look for investments.\n ● The platform allows investors to invest in startups and track their progress.\n ● The platform has a web and mobile versions.",
+      links: [
+        {
+          label: "Proxym",
+          url: "https://www.proxym-group.com/",
+        },
+      ],
+    },
+  ],
   projects: [
     {
       id: "project_1",
