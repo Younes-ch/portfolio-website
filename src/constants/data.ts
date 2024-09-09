@@ -2,6 +2,7 @@ import {
   Coursera,
   DiamondLgBlue,
   DiamondLgGreen,
+  DiamondLgOrange,
   Document,
   Email,
   Gaming,
@@ -84,6 +85,16 @@ const DATA = {
       degree: "Bachelor's degree",
       startDate: "2021",
       endDate: "2024",
+    },
+    {
+      id: "edu_3",
+      icon: DiamondLgOrange,
+      course: "Software Engineering",
+      institution:
+        "Higher Institute of Applied Sciences and Technology of Sousse",
+      degree: "Engineering degree",
+      startDate: "2024",
+      endDate: "2027",
     },
   ],
   professionalExperiences: [

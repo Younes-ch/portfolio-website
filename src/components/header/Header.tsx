@@ -14,12 +14,12 @@ const Header = () => {
               <img src={AvatarPNG} alt="avatar" className="avatar" />
               <h1 className="header-name">
                 Younes Chouikh, <br />
-                Software Developer
+                Software Engineering Student
               </h1>
             </div>
             <p className="header-text text text-white">
-              I'm a software developer based in Tunisia, I'm passionate about
-              building software that solves real problems.
+              I'm a software engineer based in Tunisia, I'm passionate about
+              building software that solves real world problems.
             </p>
           </div>
           <div className="header-contact">
@@ -29,8 +29,7 @@ const Header = () => {
                   <FaEnvelope size={13} />
                 </span>
                 <p className="info-item-text">
-                  Email:{" "}
-                  <span className="text">{EMAIL}</span>
+                  Email: <span className="text">{EMAIL}</span>
                 </p>
               </li>
               <li className="grid items-start info-item">
