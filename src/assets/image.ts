@@ -1,3 +1,4 @@
+import Azure from "./images/azure.png";
 import AvatarPNG from "./images/avatar.png";
 import DiamondPurple from "./images/diamond_purple.svg";
 import DiamondGroup from "./images/diamond_group.svg";
@@ -41,6 +42,7 @@ import Swimming from "./images/swimming.png";
 
 export {
   AvatarPNG,
+  Azure,
   DiamondBlue,
   DiamondPink,
   DiamondPurple,

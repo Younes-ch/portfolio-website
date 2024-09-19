@@ -1,4 +1,5 @@
 import {
+  Azure,
   Coursera,
   DiamondLgBlue,
   DiamondLgGreen,
@@ -248,56 +249,61 @@ const DATA = {
     },
     {
       id: "skill_2",
+      icon: Azure,
+      name: "Azure",
+    },
+    {
+      id: "skill_3",
       icon: Python,
       name: "Python",
     },
     {
-      id: "skill_3",
+      id: "skill_4",
       icon: Javascript,
       name: "Javascript",
     },
     {
-      id: "skill_4",
+      id: "skill_5",
       icon: Typescript,
       name: "Typescript",
     },
     {
-      id: "skill_9",
+      id: "skill_6",
       icon: Bash,
       name: "Bash",
     },
     {
-      id: "skill_10",
+      id: "skill_7",
       icon: Sql,
       name: "SQL",
     },
     {
-      id: "skill_11",
+      id: "skill_8",
       icon: Html,
       name: "HTML",
     },
     {
-      id: "skill_12",
+      id: "skill_9",
       icon: Css,
       name: "CSS",
     },
     {
-      id: "skill_5",
+      id: "skill_10",
       icon: Django,
       name: "Django",
     },
     {
-      id: "skill_6",
+      id: "skill_11",
       icon: React,
       name: "React",
     },
     {
-      id: "skill_7",
+      id: "skill_12",
       icon: Git,
       name: "Git",
     },
     {
-      id: "skill_8",
+      id: "skill_13",
       icon: Docker,
       name: "Docker",
     },
