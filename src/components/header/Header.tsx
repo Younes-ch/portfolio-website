@@ -27,7 +27,7 @@ const Header = () => {
               actively learning and expanding my expertise in this space. I
               thrive in environments where I can continuously learn and grow,
               and I'm always eager to dive into new technologies to enhance my
-              skills and knowledge. Feel free to connect with me — I'm always
+              skills and knowledge. Feel free to connect with me, I'm always
               open to discussing new ideas, projects, or opportunities to
               collaborate!
             </p>
