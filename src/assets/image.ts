@@ -16,7 +16,7 @@ import Github from "./images/github.svg";
 import Linkedin from "./images/linkedin.svg";
 import Email from "./images/email.svg";
 import Document from "./images/document.svg";
-import GDSC from "./images/gdsc.svg";
+import GDG from "./images/gdg.svg";
 import CSharp from "./images/c-sharp.png";
 import Python from "./images/python.svg";
 import Javascript from "./images/javascript.svg";
@@ -59,7 +59,7 @@ export {
   Linkedin,
   Email,
   Document,
-  GDSC,
+  GDG,
   CSharp,
   Python,
   Javascript,

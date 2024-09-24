@@ -28,7 +28,7 @@ import {
   Bash,
   React,
   Sql,
-  GDSC,
+  GDG,
 } from "../assets/image";
 import Resume from "../assets/images/Resume.pdf"
 
@@ -311,28 +311,28 @@ const DATA = {
   activitiesAndLeadership: [
     {
       id: "act_1",
-      startDate: "Aug 2022",
-      endDate: "Jul 2023",
-      position: "Technical Lead",
+      startDate: "Nov 2021",
+      endDate: "Present",
+      position: "Technical Lead (1 year) / Core team member (3 years)",
       diamondColors: ["Pink", "Blue", "Yellow", "Green"],
       company: {
-        logo: GDSC,
-        name: "Google Developer Student Clubs",
+        logo: GDG,
+        name: "Google Developer Groups (FKA Google Developer Student Clubs)",
         info: "Volunteer activities club in Sousse, Tunisia",
       },
       description:
-        "● Planned and executed Git Basics 101 Course (Still in production).\n ● Develop a Discord bot to manage GDSC's discord server.\n ● Hosted workshops on how to develop your own Discord bot.",
+        "● Developed a Discord bot to manage our server, leading to better community management and server monitoring.\n ●  Hosted several workshops on Python, React Native, and Machine Learning, enhancing participants skills and increasing engagement by utilizing interactive coding sessions and real-world examples.",
       links: [
         {
-          label: "GDSC Platform",
-          url: "https://gdsc.community.dev/higher-institute-of-applied-science-and-technology/",
+          label: "GDG Platform",
+          url: "https://gdg.community.dev/gdg-on-campus-higher-institute-of-applied-science-and-technology-sousse-tunisia/",
         },
         {
           label: "Tawla & Kressi Podcast",
           url: "https://linktr.ee/gdsc.issatso",
         },
         {
-          label: "GDSC Discord Server",
+          label: "GDG Discord Server",
           url: "https://discord.gg/24VKKDyDh7",
         },
       ],
