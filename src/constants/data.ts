@@ -103,7 +103,7 @@ const DATA = {
       id: "prof_1",
       startDate: "Feb 2024",
       endDate: "Jun 2024",
-      position: "Software Developer Intern",
+      position: "Software Engineer Intern",
       diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
       company: {
         logo: Proxym,
@@ -111,7 +111,9 @@ const DATA = {
         info: "Sousse, Tunisia",
       },
       description:
-        "Design and Develop a Crowdfunding platform for startups:\n ● The platform creates a new channel for startups to pich their idea and look for investments.\n ● The platform allows investors to invest in startups and track their progress.\n ● The platform has a web and mobile versions.",
+        `● Design and Develop a Crowdfunding platform for startups,  which creates a new channel for startups to pitch their ideas and look for investments, and investors can invest in the platform. \n
+         ● Utilized DialogFlow + Redis to create a chatbot that can answer FAQs about the platform, and invest/refund on behalf of the user. \n
+         ● Utilized a tech stack including React, React Native, NestJS, PostgreSQL, Docker, Azure, GitHub Actions, DialogFlow, and Redis to enhance platform functionality, leading to improved system performance and scalability.`,
       links: [
         {
           label: "Proxym",
@@ -125,7 +127,7 @@ const DATA = {
       id: "project_1",
       title: "ISSATSo Schedule Scrapper",
       description:
-        "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session.",
+        "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session. The app is used by most ISSATSo clubs to check for available classrooms to host meetings/workshops or study.",
       finishDate: "Feb 2024",
       links: [
         {
@@ -179,7 +181,7 @@ const DATA = {
       id: "project_4",
       title: "GDSC Discord Bot",
       description:
-        "A private general-purpose Discord bot made to organize the Discord server of a volunteer activities club.",
+        "A private general-purpose Discord bot made to organize, monitor, and automate the Discord server of a volunteer activities club.",
       finishDate: "Jan 2022",
       links: [
         {
