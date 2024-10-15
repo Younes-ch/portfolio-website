@@ -9,9 +9,12 @@ const Education = () => {
         <div className="education-content dotted-border-left">
           <Title titleText="Education" />
           <div className="education-list grid">
-            {DATA.educationalExperiences.map((education) => (
-              <EducationItem key={education.id} item={education} />
-            ))}
+            {DATA.educationalExperiences.map(
+              (education) =>
+                education.display && (
+                  <EducationItem key={education.id} item={education} />
+                )
+            )}
           </div>
         </div>
       </div>

@@ -75,6 +75,7 @@ const DATA = {
       degree: "High school diploma",
       startDate: "2017",
       endDate: "2021",
+      display: false
     },
     {
       id: "edu_2",
@@ -85,6 +86,7 @@ const DATA = {
       degree: "Bachelor's degree",
       startDate: "2021",
       endDate: "2024",
+      display: true
     },
     {
       id: "edu_3",
@@ -95,6 +97,7 @@ const DATA = {
       degree: "Engineering degree",
       startDate: "2024",
       endDate: "2027",
+      display: true
     },
   ],
   professionalExperiences: [
