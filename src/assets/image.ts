@@ -1,3 +1,4 @@
+import Azure from "./images/azure.png";
 import AvatarPNG from "./images/avatar.png";
 import DiamondPurple from "./images/diamond_purple.svg";
 import DiamondGroup from "./images/diamond_group.svg";
@@ -15,7 +16,7 @@ import Github from "./images/github.svg";
 import Linkedin from "./images/linkedin.svg";
 import Email from "./images/email.svg";
 import Document from "./images/document.svg";
-import GDSC from "./images/gdsc.svg";
+import GDG from "./images/gdg.svg";
 import CSharp from "./images/c-sharp.png";
 import Python from "./images/python.svg";
 import Javascript from "./images/javascript.svg";
@@ -41,6 +42,7 @@ import Swimming from "./images/swimming.png";
 
 export {
   AvatarPNG,
+  Azure,
   DiamondBlue,
   DiamondPink,
   DiamondPurple,
@@ -57,7 +59,7 @@ export {
   Linkedin,
   Email,
   Document,
-  GDSC,
+  GDG,
   CSharp,
   Python,
   Javascript,

@@ -1,4 +1,5 @@
 import {
+  Azure,
   Coursera,
   DiamondLgBlue,
   DiamondLgGreen,
@@ -27,7 +28,7 @@ import {
   Bash,
   React,
   Sql,
-  GDSC,
+  GDG,
 } from "../assets/image";
 import Resume from "../assets/images/Resume.pdf"
 
@@ -105,7 +106,7 @@ const DATA = {
       id: "prof_1",
       startDate: "Feb 2024",
       endDate: "Jun 2024",
-      position: "Software Developer Intern",
+      position: "Software Engineer Intern",
       diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
       company: {
         logo: Proxym,
@@ -113,7 +114,9 @@ const DATA = {
         info: "Sousse, Tunisia",
       },
       description:
-        "Design and Develop a Crowdfunding platform for startups:\n ● The platform creates a new channel for startups to pich their idea and look for investments.\n ● The platform allows investors to invest in startups and track their progress.\n ● The platform has a web and mobile versions.",
+        `● Design and Develop a Crowdfunding platform for startups,  which creates a new channel for startups to pitch their ideas and look for investments, and investors can invest in the platform. \n
+         ● Utilized DialogFlow + Redis to create a chatbot that can answer FAQs about the platform, and invest/refund on behalf of the user. \n
+         ● Utilized a tech stack including React, React Native, NestJS, PostgreSQL, Docker, Azure, GitHub Actions, DialogFlow, and Redis to enhance platform functionality, leading to improved system performance and scalability.`,
       links: [
         {
           label: "Proxym",
@@ -127,7 +130,7 @@ const DATA = {
       id: "project_1",
       title: "ISSATSo Schedule Scrapper",
       description:
-        "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session.",
+        "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session. The app is used by most ISSATSo clubs to check for available classrooms to host meetings/workshops or study.",
       finishDate: "Feb 2024",
       links: [
         {
@@ -181,7 +184,7 @@ const DATA = {
       id: "project_4",
       title: "GDSC Discord Bot",
       description:
-        "A private general-purpose Discord bot made to organize the Discord server of a volunteer activities club.",
+        "A private general-purpose Discord bot made to organize, monitor, and automate the Discord server of a volunteer activities club.",
       finishDate: "Jan 2022",
       links: [
         {
@@ -251,56 +254,61 @@ const DATA = {
     },
     {
       id: "skill_2",
+      icon: Azure,
+      name: "Azure",
+    },
+    {
+      id: "skill_3",
       icon: Python,
       name: "Python",
     },
     {
-      id: "skill_3",
+      id: "skill_4",
       icon: Javascript,
       name: "Javascript",
     },
     {
-      id: "skill_4",
+      id: "skill_5",
       icon: Typescript,
       name: "Typescript",
     },
     {
-      id: "skill_9",
+      id: "skill_6",
       icon: Bash,
       name: "Bash",
     },
     {
-      id: "skill_10",
+      id: "skill_7",
       icon: Sql,
       name: "SQL",
     },
     {
-      id: "skill_11",
+      id: "skill_8",
       icon: Html,
       name: "HTML",
     },
     {
-      id: "skill_12",
+      id: "skill_9",
       icon: Css,
       name: "CSS",
     },
     {
-      id: "skill_5",
+      id: "skill_10",
       icon: Django,
       name: "Django",
     },
     {
-      id: "skill_6",
+      id: "skill_11",
       icon: React,
       name: "React",
     },
     {
-      id: "skill_7",
+      id: "skill_12",
       icon: Git,
       name: "Git",
     },
     {
-      id: "skill_8",
+      id: "skill_13",
       icon: Docker,
       name: "Docker",
     },
@@ -308,28 +316,28 @@ const DATA = {
   activitiesAndLeadership: [
     {
       id: "act_1",
-      startDate: "Aug 2022",
-      endDate: "Jul 2023",
-      position: "Technical Lead",
+      startDate: "Nov 2021",
+      endDate: "Present",
+      position: "Technical Lead (1 year) / Core team member (3 years)",
       diamondColors: ["Pink", "Blue", "Yellow", "Green"],
       company: {
-        logo: GDSC,
-        name: "Google Developer Student Clubs",
+        logo: GDG,
+        name: "Google Developer Groups (FKA Google Developer Student Clubs)",
         info: "Volunteer activities club in Sousse, Tunisia",
       },
       description:
-        "● Planned and executed Git Basics 101 Course (Still in production).\n ● Develop a Discord bot to manage GDSC's discord server.\n ● Hosted workshops on how to develop your own Discord bot.",
+        "● Developed a Discord bot to manage our server, leading to better community management and server monitoring.\n ●  Hosted several workshops on Python, React Native, and Machine Learning, enhancing participants skills and increasing engagement by utilizing interactive coding sessions and real-world examples.",
       links: [
         {
-          label: "GDSC Platform",
-          url: "https://gdsc.community.dev/higher-institute-of-applied-science-and-technology/",
+          label: "GDG Platform",
+          url: "https://gdg.community.dev/gdg-on-campus-higher-institute-of-applied-science-and-technology-sousse-tunisia/",
         },
         {
           label: "Tawla & Kressi Podcast",
           url: "https://linktr.ee/gdsc.issatso",
         },
         {
-          label: "GDSC Discord Server",
+          label: "GDG Discord Server",
           url: "https://discord.gg/24VKKDyDh7",
         },
       ],
