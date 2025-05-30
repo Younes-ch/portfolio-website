@@ -128,6 +128,15 @@ const DATA = {
   projects: [
     {
       id: "project_1",
+      title: "Hackwarts 2.0 Platform",
+      description:
+        "Hackwarts 2.0 was a custom-built platform designed to host a hackathon event with a fun and engaging Harry Potter theme. The platform was created in just five days by a team of passionate developers and was designed to provide participants with a seamless and efficient experience throughout the hackathon. The event, organized by Google Developer Groups On Campus ISSATSo, took place at our university and attracted over 50 teams and more than 200 participants.",
+      finishDate: "Dec 2024",
+      links: [],
+      tags: ["NextJS", "Typescript", "Docker", "MongoDB", "TailwindCSS"],
+    },
+    {
+      id: "project_2",
       title: "ISSATSo Schedule Scrapper",
       description:
         "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session. The app is used by most ISSATSo clubs to check for available classrooms to host meetings/workshops or study.",
@@ -145,7 +154,7 @@ const DATA = {
       tags: ["Python", "Typescript", "Django", "Django REST Framework", "React", "BeautifulSoup", "HTML", "TailwindCSS", "CSS", "Git", "Docker", "Azure"],
     },
     {
-      id: "project_2",
+      id: "project_3",
       title: "Image Gallery",
       description:
         "Image Gallery is an image discovery web app that helps you find new and interesting images to download or share. With Image Gallery, you can search for images by term and type and order them by most popular or latest.",
@@ -163,7 +172,7 @@ const DATA = {
       tags: ["React", "Typescript", "TailwindCSS", "HTML", "CSS", "Git"],
     },
     {
-      id: "project_3",
+      id: "project_4",
       title: "Todo Mobile Application",
       description:
         "This Android application provides a user-friendly platform for managing tasks while incorporating authentication and local storage mechanisms for enhanced security and data persistence. The app has a French and an English version",
@@ -181,7 +190,7 @@ const DATA = {
       tags: ["Java", "Android SDK", "Android Studio", "XML", "SQLite", "Git"],
     },
     {
-      id: "project_4",
+      id: "project_5",
       title: "GDSC Discord Bot",
       description:
         "A private general-purpose Discord bot made to organize, monitor, and automate the Discord server of a volunteer activities club.",
@@ -208,7 +217,7 @@ const DATA = {
       ],
     },
     {
-      id: "project_5",
+      id: "project_6",
       title: "Library management system",
       description:
         "This is a RESTful API and a landing page for managing a library of books, built with Django and Django Rest Framework.It allows you to add, update, delete, and read books from a database of books.Each book is modeled with a title, author, genre, publishing year, pages, chapters, and link to read it.",
@@ -232,7 +241,7 @@ const DATA = {
       ],
     },
     {
-      id: "project_6",
+      id: "project_7",
       title: "Yoink Yoink",
       description:
         "A Unity game I developed can be played in a browser or downloaded; it supports local multiplayer.",
