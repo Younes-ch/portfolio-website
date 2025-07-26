@@ -25,6 +25,7 @@ import Bash from "./images/bash.svg";
 import Sql from "./images/sql.svg";
 import Css from "./images/css.png";
 import Html from "./images/html.png";
+import Insimplo from "./images/insimplo.png";
 import Django from "./images/django.svg";
 import React from "./images/react.svg";
 import Git from "./images/git.svg";
@@ -67,6 +68,7 @@ export {
   Bash,
   Sql,
   Html,
+  Insimplo,
   Css,
   Django,
   React,

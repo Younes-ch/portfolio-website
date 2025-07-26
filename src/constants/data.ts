@@ -16,6 +16,7 @@ import {
   Swimming,
   Microsoft,
   Proxym,
+  Insimplo,
   FreeCodeCamp,
   KodeKloud,
   Cisco,
@@ -104,6 +105,27 @@ const DATA = {
   professionalExperiences: [
     {
       id: "prof_1",
+      startDate: "Jul 2025",
+      endDate: "Present",
+      position: "AI/.NET Software Engineer Intern",
+      diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
+      company: {
+        logo: Insimplo,
+        name: "Insimplo",
+        info: "Monastir, Tunisia",
+      },
+      description:
+        `● Designing and developing an AI-based system that can analyze images of damage (e.g., water, mold, structural wall damage) and automatically generate structured repair quotes, including positioned line items, quantities, and cost estimates. \n
+         ● Tech Stack: Python, C#, WPF, YOLO, PyTorch`,
+      links: [
+        {
+          label: "Insimplo",
+          url: "https://insimplo.de/",
+        },
+      ],
+    },
+    {
+      id: "prof_2",
       startDate: "Feb 2024",
       endDate: "Jun 2024",
       position: "Software Engineer Intern",
@@ -114,16 +136,16 @@ const DATA = {
         info: "Sousse, Tunisia",
       },
       description:
-        `● Design and Develop a Crowdfunding platform for startups,  which creates a new channel for startups to pitch their ideas and look for investments, and investors can invest in the platform. \n
-         ● Utilized DialogFlow + Redis to create a chatbot that can answer FAQs about the platform, and invest/refund on behalf of the user. \n
-         ● Utilized a tech stack including React, React Native, NestJS, PostgreSQL, Docker, Azure, GitHub Actions, DialogFlow, and Redis to enhance platform functionality, leading to improved system performance and scalability.`,
+        `● Developed and launched a cross-platform crowdfunding platform for startups to facilitate secure investor transactions and increase startup visibility.  \n
+         ● Created a DialogFlow chatbot with Redis integration for handling user FAQs and automating investment processes, enhancing user interaction, and support efficiency.  \n
+         ● Led full-stack development utilizing React, React Native, NestJS, PostgreSQL, and Docker to improve system scalability and performance.`,
       links: [
         {
           label: "Proxym",
           url: "https://www.proxym-group.com/",
         },
       ],
-    },
+    }
   ],
   projects: [
     {
