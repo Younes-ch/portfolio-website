@@ -14,22 +14,22 @@ const Header = () => {
               <img src={AvatarPNG} alt="avatar" className="avatar" />
               <h1 className="header-name">
                 Younes Chouikh, <br />
-                Software Engineering Student
+                Software Engineering Student |
+                <br /> Full Stack .NET
               </h1>
             </div>
             <p className="header-text text text-white">
-              🚀 𝟏𝐬𝐭 𝐘𝐞𝐚𝐫 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 | .𝐍𝐄𝐓 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫
-              | 𝐅𝐨𝐫𝐦𝐞𝐫 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐋𝐞𝐚𝐝 𝐚𝐭 𝐆𝐨𝐨𝐠𝐥𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐂𝐥𝐮𝐛 𝐈𝐒𝐒𝐀𝐓𝐒𝐨{" "}
-              <br />
+              🚀 𝟏𝐬𝐭 𝐘𝐞𝐚𝐫 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 | .𝐍𝐄𝐓 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 | 𝐅𝐨𝐫𝐦𝐞𝐫
+              𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐋𝐞𝐚𝐝 𝐚𝐭 𝐆𝐨𝐨𝐠𝐥𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐂𝐥𝐮𝐛 𝐈𝐒𝐒𝐀𝐓𝐒𝐨 <br />
               I'm currently pursuing my degree in Software Engineering, driven
               by a passion for solving real-world problems through code. With a
-              strong love for <strong>C#</strong> and the <strong>.NET</strong> ecosystem, I am
-              actively learning and expanding my expertise in this space. I
-              thrive in environments where I can continuously learn and grow,
-              and I'm always eager to dive into new technologies to enhance my
-              skills and knowledge. Feel free to connect with me, I'm always
-              open to discussing new ideas, projects, or opportunities to
-              collaborate!
+              strong love for <strong>C#</strong> and the <strong>.NET</strong>{" "}
+              ecosystem, I am actively learning and expanding my expertise in
+              this space. I thrive in environments where I can continuously
+              learn and grow, and I'm always eager to dive into new technologies
+              to enhance my skills and knowledge. Feel free to connect with me,
+              I'm always open to discussing new ideas, projects, or
+              opportunities to collaborate!
             </p>
           </div>
           <div className="header-contact">
