@@ -263,7 +263,7 @@ const DATA: DataType = {
           url: "https://win-nerkech.vercel.app/",
         },
       ],
-      tags: ["Python", "Typescript", "Django", "Django REST Framework", "React", "BeautifulSoup", "HTML", "TailwindCSS", "CSS", "Git", "Docker", "Azure"],
+      tags: ["Python", "Typescript", "Django", "Django REST Framework", "React", "BeautifulSoup", "HTML", "TailwindCSS", "CSS", "Git", "Docker", "Azure", "Azure Functions"],
     },
     {
       id: "project_3",
