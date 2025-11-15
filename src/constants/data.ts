@@ -95,7 +95,7 @@ const DATA: DataType = {
         "Higher Institute of Applied Sciences and Technology of Sousse",
       degree: "Engineering degree",
       startDate: "2024",
-      endDate: "2027",
+      endDate: "2027 (Expected)",
       display: true
     },
   ],
@@ -103,17 +103,17 @@ const DATA: DataType = {
     {
       id: "prof_1",
       startDate: "Jul 2025",
-      endDate: "Present",
+      endDate: "Aug 2025",
       position: "AI/.NET Software Engineer Intern",
       diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
       company: {
         logo: Insimplo,
         name: "Insimplo",
-        info: "Monastir, Tunisia",
+        info: "Berlin, Remote",
       },
       description:
         `● Designing and developing an AI-based system that can analyze images of damage (e.g., water, mold, structural wall damage) and automatically generate structured repair quotes, including positioned line items, quantities, and cost estimates. \n
-         ● Tech Stack: Python, C#, WPF, YOLO, PyTorch`,
+         ● Tech Stack: Python, C#, .NET WPF, YOLO, PyTorch`,
       links: [
         {
           label: "Insimplo",
@@ -368,6 +368,10 @@ const DATA: DataType = {
           label: "GDG Discord Server",
           url: "https://discord.gg/24VKKDyDh7",
         },
+        {
+          label: "Certificate of Completion - Tech Lead",
+          url: "https://drive.google.com/file/d/18k9hNIPUCSqz8llRH7zL7yMDH-sH390e/view?usp=sharing",
+        }
       ],
     },
   ],
