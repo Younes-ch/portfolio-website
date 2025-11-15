@@ -32,104 +32,11 @@ import {
   GDG,
 } from "../assets/image";
 import Resume from "../assets/images/Resume.pdf"
+import type { DataType } from "../types";
 
 export const EMAIL = "younes.chouikh20@gmail.com";
 export const PHONE = "(+216) 93 546 403";
 export const ADDRESS = "Monastir, Tunisia";
-
-// Type definitions for the DATA object
-interface SocialLink {
-  id: string;
-  icon: string;
-  tooltip: string;
-  url: string;
-  download?: boolean;
-}
-
-interface EducationalExperience {
-  id: string;
-  icon: string;
-  course: string;
-  institution: string;
-  degree: string;
-  startDate: string;
-  endDate: string;
-  display?: boolean;
-}
-
-interface Company {
-  logo: string;
-  name: string;
-  info: string;
-}
-
-interface Link {
-  label: string;
-  url: string;
-}
-
-interface ProfessionalExperience {
-  id: string;
-  startDate: string;
-  endDate: string;
-  position: string;
-  diamondColors: string[];
-  company: Company;
-  description: string;
-  links: Link[];
-}
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  finishDate: string;
-  links: Link[];
-  tags: string[];
-}
-
-interface Skill {
-  id: string;
-  icon: string;
-  name: string;
-}
-
-interface ActivityAndLeadership {
-  id: string;
-  startDate: string;
-  endDate: string;
-  position: string;
-  diamondColors: string[];
-  company: Company;
-  description: string;
-  links: Link[];
-}
-
-interface Certificate {
-  id: string;
-  icon: string;
-  provider: string;
-  course: string;
-  link: string;
-  issueDate: string;
-}
-
-interface HobbyAndInterest {
-  id: string;
-  icon: string;
-  name: string;
-}
-
-interface DataType {
-  socialLinks: SocialLink[];
-  educationalExperiences: EducationalExperience[];
-  professionalExperiences: ProfessionalExperience[];
-  projects: Project[];
-  skills: Skill[];
-  activitiesAndLeadership: ActivityAndLeadership[];
-  certificates: Certificate[];
-  hobbiesAndInterests: HobbyAndInterest[];
-}
 
 const DATA: DataType = {
   socialLinks: [
