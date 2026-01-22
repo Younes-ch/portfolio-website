@@ -147,6 +147,24 @@ const DATA: DataType = {
   projects: [
     {
       id: "project_1",
+      title: "SketchAI",
+      description:
+        "A real-time multiplayer drawing and guessing game powered by AI. Players take turns drawing words while others try to guess them. The game features AI-assisted drawing capabilities, intelligent word explanations, and image hints to enhance the gaming experience.",
+      finishDate: "Jan 2026",
+      links: [
+        {
+          label: "View source",
+          url: "https://github.com/Younes-ch/sketch-ai",
+        },
+        {
+          label: "View demo",
+          url: "https://sketchai-web.blacksky-a496d0d8.westeurope.azurecontainerapps.io/",
+        },
+      ],
+      tags: ["C#", "Typescript", "ASP.NET Core", "SignalR", ".NET Aspire", "React", "Azure Container Apps", "Redis", "Docker"],
+    },
+    {
+      id: "project_2",
       title: "Hackwarts 2.0 Platform",
       description:
         "Hackwarts 2.0 was a custom-built platform designed to host a hackathon event with a fun and engaging Harry Potter theme. The platform was created in just five days by a team of passionate developers and was designed to provide participants with a seamless and efficient experience throughout the hackathon. The event, organized by Google Developer Groups On Campus ISSATSo, took place at our university and attracted over 50 teams and more than 200 participants.",
@@ -155,7 +173,7 @@ const DATA: DataType = {
       tags: ["NextJS", "Typescript", "Docker", "MongoDB", "TailwindCSS"],
     },
     {
-      id: "project_2",
+      id: "project_3",
       title: "ISSATSo Schedule Scrapper",
       description:
         "A full-stack web application that fetches schedules and checks for available classrooms on a given day and session. The app is used by most ISSATSo clubs to check for available classrooms to host meetings/workshops or study.",
@@ -173,7 +191,7 @@ const DATA: DataType = {
       tags: ["Python", "Typescript", "Django", "Django REST Framework", "React", "BeautifulSoup", "HTML", "TailwindCSS", "CSS", "Git", "Docker", "Azure", "Azure Functions"],
     },
     {
-      id: "project_3",
+      id: "project_4",
       title: "Image Gallery",
       description:
         "Image Gallery is an image discovery web app that helps you find new and interesting images to download or share. With Image Gallery, you can search for images by term and type and order them by most popular or latest.",
@@ -191,7 +209,7 @@ const DATA: DataType = {
       tags: ["React", "Typescript", "TailwindCSS", "HTML", "CSS", "Git"],
     },
     {
-      id: "project_4",
+      id: "project_5",
       title: "Todo Mobile Application",
       description:
         "This Android application provides a user-friendly platform for managing tasks while incorporating authentication and local storage mechanisms for enhanced security and data persistence. The app has a French and an English version",
@@ -209,7 +227,7 @@ const DATA: DataType = {
       tags: ["Java", "Android SDK", "Android Studio", "XML", "SQLite", "Git"],
     },
     {
-      id: "project_5",
+      id: "project_6",
       title: "GDSC Discord Bot",
       description:
         "A private general-purpose Discord bot made to organize, monitor, and automate the Discord server of a volunteer activities club.",
@@ -236,7 +254,7 @@ const DATA: DataType = {
       ],
     },
     {
-      id: "project_6",
+      id: "project_7",
       title: "Library management system",
       description:
         "This is a RESTful API and a landing page for managing a library of books, built with Django and Django Rest Framework.It allows you to add, update, delete, and read books from a database of books.Each book is modeled with a title, author, genre, publishing year, pages, chapters, and link to read it.",
@@ -260,7 +278,7 @@ const DATA: DataType = {
       ],
     },
     {
-      id: "project_7",
+      id: "project_8",
       title: "Yoink Yoink",
       description:
         "A Unity game I developed can be played in a browser or downloaded; it supports local multiplayer.",
