@@ -158,7 +158,7 @@ const DATA: DataType = {
         },
         {
           label: "View demo",
-          url: "https://sketchai-web.blacksky-a496d0d8.westeurope.azurecontainerapps.io/",
+          url: "https://sketch-ai.dev",
         },
       ],
       tags: ["C#", "Typescript", "ASP.NET Core", "SignalR", ".NET Aspire", "React", "Azure Container Apps", "Redis", "Docker"],
