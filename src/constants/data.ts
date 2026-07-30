@@ -30,6 +30,7 @@ import {
   React,
   Sql,
   GDG,
+  ZouariSchool
 } from "../assets/image";
 import Resume from "../assets/images/Resume.pdf"
 import type { DataType } from "../types";
@@ -101,32 +102,49 @@ const DATA: DataType = {
   ],
   professionalExperiences: [
     {
+      id: "prof_0",
+      startDate: "Jul 2026",
+      endDate: "Aug 2026",
+      position: "Software Engineer Intern",
+      company: {
+        logo: ZouariSchool,
+        name: "Zouari School",
+        info: "Monastir, Tunisia (Hybrid)",
+      },
+      description: "As a software engineering intern, I worked on a school management platform used by admins, teachers, and students. I led a full redesign of the admin dashboard, making it faster and easier to use, and fixed performance issues that were slowing down the app's most-visited pages, in one case cutting page load requests from over 100 down to 4. I also built new features like payment expiry alerts, activity statistics with charts and filters, and subscription management tools, and I set up automated code quality checks so the whole team ships cleaner, more consistent code.",
+      links: [
+        {
+          label: "Zouari School",
+          url: "https://zouarischool.org/",
+        },
+      ],
+      tags: [".NET", "ASP.NET Web API", "React", "C#", "Javascript", "PostgreSQL", "Docket", "Github Actions"],
+    },
+    {
       id: "prof_1",
       startDate: "Jul 2025",
       endDate: "Aug 2025",
       position: "AI/.NET Software Engineer Intern",
-      diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
       company: {
         logo: Insimplo,
         name: "Insimplo",
         info: "Berlin, Remote",
       },
       description:
-        `● Designing and developing an AI-based system that can analyze images of damage (e.g., water, mold, structural wall damage) and automatically generate structured repair quotes, including positioned line items, quantities, and cost estimates. \n
-         ● Tech Stack: Python, C#, .NET WPF, YOLO, PyTorch`,
+        "● Designing and developing an AI-based system that can analyze images of damage (e.g., water, mold, structural wall damage) and automatically generate structured repair quotes, including positioned line items, quantities, and cost estimates.",
       links: [
         {
           label: "Insimplo",
           url: "https://insimplo.de/",
         },
       ],
+      tags: ["Python", "C#", ".NET WPF", "YOLO", "PyTorch"],
     },
     {
       id: "prof_2",
       startDate: "Feb 2024",
       endDate: "Jun 2024",
       position: "Software Engineer Intern",
-      diamondColors: ["Pink", "Blue", "Yellow", "Green", "Orange"],
       company: {
         logo: Proxym,
         name: "Proxym",
@@ -135,13 +153,14 @@ const DATA: DataType = {
       description:
         `● Developed and launched a cross-platform crowdfunding platform for startups to facilitate secure investor transactions and increase startup visibility.  \n
          ● Created a DialogFlow chatbot with Redis integration for handling user FAQs and automating investment processes, enhancing user interaction, and support efficiency.  \n
-         ● Led full-stack development utilizing React, React Native, NestJS, PostgreSQL, and Docker to improve system scalability and performance.`,
+         ● Led full-stack development to improve system scalability and performance.`,
       links: [
         {
           label: "Proxym",
           url: "https://www.proxym-group.com/",
         },
       ],
+      tags: ["React", "React Native", "NestJS", "PostgreSQL", "Redis", "DialogFlow", "Docker"],
     }
   ],
   projects: [
@@ -365,7 +384,6 @@ const DATA: DataType = {
       startDate: "Nov 2021",
       endDate: "Present",
       position: "Technical Lead (1 year) / Core team member (3 years)",
-      diamondColors: ["Pink", "Blue", "Yellow", "Green"],
       company: {
         logo: GDG,
         name: "Google Developer Groups (FKA Google Developer Student Clubs)",
@@ -391,6 +409,7 @@ const DATA: DataType = {
           url: "https://drive.google.com/file/d/18k9hNIPUCSqz8llRH7zL7yMDH-sH390e/view?usp=sharing",
         }
       ],
+      tags: ["Python", "React Native", "Machine Learning", "Discord.py"],
     },
   ],
   certificates: [

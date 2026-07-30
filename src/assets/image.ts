@@ -40,6 +40,7 @@ import Google from "./images/google.png";
 import Reading from "./images/reading.png";
 import Gaming from "./images/gaming.png";
 import Swimming from "./images/swimming.png";
+import ZouariSchool from "./images/zouarischool.png"
 
 export {
   AvatarPNG,
@@ -83,5 +84,6 @@ export {
   Google,
   Reading,
   Gaming,
-  Swimming
+  Swimming,
+  ZouariSchool
 };

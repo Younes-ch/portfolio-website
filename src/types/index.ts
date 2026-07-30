@@ -33,7 +33,7 @@ export interface ProfessionalExperience {
   startDate: string;
   endDate: string;
   position: string;
-  diamondColors: string[];
+  tags: string[];
   company: Company;
   description: string;
   links: Link[];
@@ -59,7 +59,7 @@ export interface ActivityAndLeadership {
   startDate: string;
   endDate: string;
   position: string;
-  diamondColors: string[];
+  tags: string[];
   company: Company;
   description: string;
   links: Link[];

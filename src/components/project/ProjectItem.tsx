@@ -24,7 +24,7 @@ const ProjectItem = ({ item }: ProjectItemProps) => {
         <p className="project-name">{item.title}</p>
       </div>
       <p className="project-description text">{item.description}</p>
-      <div className="project-tags">
+      <div className="tags">
         {item.tags.map((tag, index) => (
           <span key={index} className="tag">
             {tag}

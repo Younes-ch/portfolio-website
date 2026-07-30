@@ -50,27 +50,6 @@
         margin: 12px 0 4px 0;
     }
 
-    .project-tags {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 8px;
-        row-gap: 8px;
-        margin-bottom: 12px;
-
-        .tag {
-            padding: 4px 8px;
-            border-radius: 4px;
-            background-color: $green;
-            color: $white;
-            font-size: 14px;
-
-            &:hover {
-               scale: 1.05;
-               box-shadow: rgba(0, 0, 0, 0.25) 0 5px 15px 2px;
-            }
-        }
-    }
-
     .project-links {
         display: flex;
         align-items: center;

@@ -14,22 +14,22 @@ const Header = () => {
               <img src={AvatarPNG} alt="avatar" className="avatar" />
               <h1 className="header-name">
                 Younes Chouikh, <br />
-                Software Engineering Student |
-                <br /> Full Stack .NET
+                Software Engineering Student
               </h1>
             </div>
             <p className="header-text text text-white">
-              🚀 𝟏𝐬𝐭 𝐘𝐞𝐚𝐫 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 | .𝐍𝐄𝐓 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 | 𝐅𝐨𝐫𝐦𝐞𝐫
-              𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐋𝐞𝐚𝐝 𝐚𝐭 𝐆𝐨𝐨𝐠𝐥𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐂𝐥𝐮𝐛 𝐈𝐒𝐒𝐀𝐓𝐒𝐨 <br />
+              🚀 𝙁𝙞𝙣𝙖𝙡 𝙔𝙚𝙖𝙧 𝙎𝙤𝙛𝙩𝙬𝙖𝙧𝙚 𝙀𝙣𝙜𝙞𝙣𝙚𝙚𝙧𝙞𝙣𝙜 𝙎𝙩𝙪𝙙𝙚𝙣𝙩 | 𝙁𝙪𝙡𝙡 𝙎𝙩𝙖𝙘𝙠 𝘼𝙄 |
+              𝙁𝙤𝙧𝙢𝙚𝙧 𝙏𝙚𝙘𝙝𝙣𝙞𝙘𝙖𝙡 𝙇𝙚𝙖𝙙 𝙖𝙩 𝙂𝙤𝙤𝙜𝙡𝙚 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 𝙎𝙩𝙪𝙙𝙚𝙣𝙩 𝘾𝙡𝙪𝙗 𝙄𝙎𝙎𝘼𝙏𝙎𝙤{" "}
+              <br />
+              <br />
               I'm currently pursuing my degree in Software Engineering, driven
-              by a passion for solving real-world problems through code. With a
-              strong love for <strong>C#</strong> and the <strong>.NET</strong>{" "}
-              ecosystem, I am actively learning and expanding my expertise in
-              this space. I thrive in environments where I can continuously
-              learn and grow, and I'm always eager to dive into new technologies
-              to enhance my skills and knowledge. Feel free to connect with me,
-              I'm always open to discussing new ideas, projects, or
-              opportunities to collaborate!
+              by a passion for solving real-world problems through code. I am
+              actively learning and expanding my expertise in technology and AI. I
+              thrive in environments where I can continuously learn and grow,
+              and I'm always eager to dive into new technologies to enhance my
+              skills and knowledge. Feel free to connect with me, I'm always
+              open to discussing new ideas, projects, or opportunities to
+              collaborate!
             </p>
           </div>
           <div className="header-contact">

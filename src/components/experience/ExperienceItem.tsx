@@ -1,11 +1,4 @@
 import { FaLink } from "react-icons/fa";
-import {
-  DiamondLgBlue,
-  DiamondLgGreen,
-  DiamondLgOrange,
-  DiamondLgPink,
-  DiamondLgYellow,
-} from "../../assets/image";
 
 interface ExperienceItemProps {
   item: {
@@ -13,7 +6,7 @@ interface ExperienceItemProps {
     startDate: string;
     endDate: string;
     position: string;
-    diamondColors: string[];
+    tags: string[];
     company: {
       logo: string;
       name: string;
@@ -28,14 +21,6 @@ interface ExperienceItemProps {
 }
 
 const ExperienceItem = ({ item }: ExperienceItemProps) => {
-  const showDiamondImage = (color: string) => {
-    if (color === "Blue") return DiamondLgBlue;
-    else if (color === "Green") return DiamondLgGreen;
-    else if (color === "Orange") return DiamondLgOrange;
-    else if (color === "Pink") return DiamondLgPink;
-    else if (color === "Yellow") return DiamondLgYellow;
-  };
-
   return (
     <div className="experience-item">
       <div className="exp-time flex items-center">
@@ -45,11 +30,6 @@ const ExperienceItem = ({ item }: ExperienceItemProps) => {
       </div>
       <div className="exp-postion flex items-center flex-wrap">
         <p className="exp-position-text">{item.position}</p>
-        <div className="diamond-shapes-group">
-          {item.diamondColors.map((color, index) => (
-            <img key={index} src={showDiamondImage(color)} alt="" />
-          ))}
-        </div>
       </div>
       <div className="exp-company flex items-center flex-wrap">
         <div className="company-logo">
@@ -62,6 +42,13 @@ const ExperienceItem = ({ item }: ExperienceItemProps) => {
         {item.description.split("\n").map((i, key) => {
           return <p key={key}>{i}</p>;
         })}
+      </div>
+      <div className="tags">
+        {item.tags.map((tag, index) => (
+          <span key={index} className="tag">
+            {tag}
+          </span>
+        ))}
       </div>
       <div className="exp-links">
         {item.links.map((link) => (

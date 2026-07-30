@@ -1,11 +1,4 @@
 import { FaLink } from "react-icons/fa";
-import {
-  DiamondLgBlue,
-  DiamondLgGreen,
-  DiamondLgOrange,
-  DiamondLgPink,
-  DiamondLgYellow,
-} from "../../assets/image";
 
 interface ActivitiesItemProps {
   item: {
@@ -13,7 +6,7 @@ interface ActivitiesItemProps {
     startDate: string;
     endDate: string;
     position: string;
-    diamondColors: string[];
+    tags: string[];
     company: {
       logo: string;
       name: string;
@@ -28,14 +21,6 @@ interface ActivitiesItemProps {
 }
 
 const ActivitiesItem = ({ item }: ActivitiesItemProps) => {
-  const showDiamondImage = (color: string) => {
-    if (color === "Blue") return DiamondLgBlue;
-    else if (color === "Green") return DiamondLgGreen;
-    else if (color === "Orange") return DiamondLgOrange;
-    else if (color === "Pink") return DiamondLgPink;
-    else if (color === "Yellow") return DiamondLgYellow;
-  };
-
   return (
     <div className="activities-item">
       <div className="act-time flex items-center">
@@ -45,11 +30,6 @@ const ActivitiesItem = ({ item }: ActivitiesItemProps) => {
       </div>
       <div className="act-postion flex items-center flex-wrap">
         <p className="act-position-text">{item.position}</p>
-        <div className="diamond-shapes-group">
-          {item.diamondColors.map((color, index) => (
-            <img key={index} src={showDiamondImage(color)} alt="" />
-          ))}
-        </div>
       </div>
       <div className="act-company flex items-center flex-wrap">
         <div className="company-logo">
@@ -61,6 +41,13 @@ const ActivitiesItem = ({ item }: ActivitiesItemProps) => {
       <div className="act-description text">{item.description.split("\n").map((i, key) => {
         return <p key={key}>{i}</p>;
       })}</div>
+      <div className="tags">
+        {item.tags.map((tag, index) => (
+          <span key={index} className="tag">
+            {tag}
+          </span>
+        ))}
+      </div>
       <div className="act-links">
         {item.links.map((link) => (
           <a
