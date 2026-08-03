@@ -111,7 +111,9 @@ const DATA: DataType = {
         name: "Zouari School",
         info: "Monastir, Tunisia (Hybrid)",
       },
-      description: "As a software engineering intern, I worked on a school management platform used by admins, teachers, and students. I led a full redesign of the admin dashboard, making it faster and easier to use, and fixed performance issues that were slowing down the app's most-visited pages, in one case cutting page load requests from over 100 down to 4. I also built new features like payment expiry alerts, activity statistics with charts and filters, and subscription management tools, and I set up automated code quality checks so the whole team ships cleaner, more consistent code.",
+      description: `● Redesigned the admin dashboard on the school management platform to improve speed and usability.
+                    ● Resolved performance issues on high-traffic pages, reducing page load requests from over 100 to 4 in some cases.
+                    ● Developed new features including payment expiry alerts, activity statistics with charts and filters, and subscription management tools. Implemented automated code quality checks for enhanced team productivity.`,
       links: [
         {
           label: "Zouari School",
@@ -130,8 +132,8 @@ const DATA: DataType = {
         name: "Insimplo",
         info: "Berlin, Remote",
       },
-      description:
-        "● Designing and developing an AI-based system that can analyze images of damage (e.g., water, mold, structural wall damage) and automatically generate structured repair quotes, including positioned line items, quantities, and cost estimates.",
+      description: `● Designed and developed an AI system to analyze images of various damages such as water, mold, and structural wall damage.
+                    ● Automated the creation of structured repair quotes with positioned line items, quantities, and cost estimates.`,
       links: [
         {
           label: "Insimplo",
@@ -150,10 +152,9 @@ const DATA: DataType = {
         name: "Proxym",
         info: "Sousse, Tunisia",
       },
-      description:
-        `● Developed and launched a cross-platform crowdfunding platform for startups to facilitate secure investor transactions and increase startup visibility.  \n
-         ● Created a DialogFlow chatbot with Redis integration for handling user FAQs and automating investment processes, enhancing user interaction, and support efficiency.  \n
-         ● Led full-stack development to improve system scalability and performance.`,
+      description: `● Developed and launched a cross-platform crowdfunding platform to enhance startup visibility and ensure secure investor transactions.
+                    ● Created a DialogFlow chatbot integrated with Redis to streamline user FAQs handling and automate investment processes, improving user interaction and support efficiency.
+                    ● Led full-stack development with React, React Native, NestJS, PostgreSQL, and Docker to enhance system scalability and performance.`,
       links: [
         {
           label: "Proxym",
