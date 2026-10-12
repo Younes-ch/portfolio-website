@@ -103,6 +103,32 @@ const DATA: DataType = {
   professionalExperiences: [
     {
       id: "prof_0",
+      startDate: "Aug 2026",
+      endDate: "Present",
+      position: "Software Engineer (Part-time)",
+      company: {
+        logo: ZouariSchool,
+        name: "Zouari School",
+        info: "Monastir, Tunisia (Hybrid)",
+      },
+      description: `Took ownership of Zouari Training, Zouari School's certified courses platform (courses, quizzes, certificates, live classes, payments), and brought it from prototype to launch readiness: 280+ commits across an ASP.NET Core (.NET 10) API, a React + TypeScript app, and the Azure infrastructure behind them.
+                    ● Lesson-video pipeline: trainers upload straight from the browser to Azure Blob Storage; a blob event queues a durable job that a Container Apps worker pushes to Vimeo over resumable TUS uploads, then archives the master at the cool tier. Vimeo webhooks plus a reconciliation sweep track playability, and trainers see each stage live.
+                    ● Live classes on Zoom, from booking to archive: recurring sessions booked against a pool of licensed hosts, classes run inside the app through the Zoom Meeting SDK, webhooks drive status, a live roll call, and a background job moves each recording to Blob Storage and Vimeo before deleting Zoom's copy.
+                    ● Cloud: moved the API from an Azure Function App to Container Apps (one image for API and workers, OIDC deploys, health-gated rollout) and uploads from local disk to Blob Storage with short-lived per-file links.
+                    ● Content protection: per-student video watermark, a two-device sign-in limit, server-side lesson access checks.
+                    ● Payments and access: coupons, time-limited admin grants, a full access history per enrolment.
+                    ● Trilingual: French, Arabic (right-to-left) and English, enforced by lint rules.
+                    ● Test-driven throughout: ~2,300 unit and ~460 integration tests on real PostgreSQL (Testcontainers), ~1,500 frontend unit and ~370 Playwright end-to-end tests, gated in GitHub Actions.`,
+      links: [
+        {
+          label: "Zouari School",
+          url: "https://zouarischool.org/",
+        },
+      ],
+      tags: ["C#", ".NET", "ASP.NET Core", "EF Core", "PostgreSQL", "React", "TypeScript", "Tailwind", "Azure", "Vimeo", "Zoom", "Docker", "Github Actions"],
+    },
+    {
+      id: "prof_1",
       startDate: "Jul 2026",
       endDate: "Aug 2026",
       position: "Software Engineer Intern",
@@ -120,10 +146,10 @@ const DATA: DataType = {
           url: "https://zouarischool.org/",
         },
       ],
-      tags: [".NET", "ASP.NET Web API", "React", "C#", "Javascript", "PostgreSQL", "Docket", "Github Actions"],
+      tags: ["C#", ".NET", "ASP.NET Core", "EF Core", "PostgreSQL", "React", "TypeScript", "Tailwind", "Azure", "Vimeo", "Zoom", "Docker", "Github Actions"],
     },
     {
-      id: "prof_1",
+      id: "prof_2",
       startDate: "Jul 2025",
       endDate: "Aug 2025",
       position: "AI/.NET Software Engineer Intern",
@@ -143,7 +169,7 @@ const DATA: DataType = {
       tags: ["Python", "C#", ".NET WPF", "YOLO", "PyTorch"],
     },
     {
-      id: "prof_2",
+      id: "prof_3",
       startDate: "Feb 2024",
       endDate: "Jun 2024",
       position: "Software Engineer Intern",
@@ -384,7 +410,7 @@ const DATA: DataType = {
       id: "act_1",
       startDate: "Nov 2021",
       endDate: "Present",
-      position: "Technical Lead (1 year) / Core team member (3 years)",
+      position: "Technical Lead (1 year) / Core team member (4 years)",
       company: {
         logo: GDG,
         name: "Google Developer Groups (FKA Google Developer Student Clubs)",
