@@ -19,4 +19,8 @@
         scale: 1.01;
         outline: none;
     }
+
+    &:focus-visible {
+        border-color: $green-light;
+    }
 }

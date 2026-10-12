@@ -15,12 +15,12 @@ const SocialLinkItem = ({ item }: SocialLinkItemProps) => {
     <li className="social-item">
       {item.download ? (
         <a href={item.url} download="Resume.pdf">
-          <img src={item.icon} />
+          <img src={item.icon} alt={item.tooltip} />
           <span className="tooltip text">{item.tooltip}</span>
         </a>
       ) : (
         <Link to={item.url}>
-          <img src={item.icon} />
+          <img src={item.icon} alt={item.tooltip} />
           <span className="tooltip text">{item.tooltip}</span>
         </Link>
       )}

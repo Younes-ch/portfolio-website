@@ -76,12 +76,12 @@
         background-size: 200%;
         animation: $shine;
 
-        @media(max-width: 576px) {
-            font-size: 24px;
+        @media(max-width: 768px) {
+            font-size: 28px;
         }
 
-        @media(max-width: 768) {
-            font-size: 28px;
+        @media(max-width: 576px) {
+            font-size: 24px;
         }
     }
 
@@ -92,7 +92,7 @@
     .contact-info-list {
         row-gap: 10px;
 
-        @media(max-width: 576) {
+        @media(max-width: 576px) {
             row-gap: 4px;
         }
 

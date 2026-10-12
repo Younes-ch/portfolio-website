@@ -1,4 +1,5 @@
 import { FaLink } from "react-icons/fa";
+import Description from "../common/Description";
 
 interface ExperienceItemProps {
   item: {
@@ -28,7 +29,7 @@ const ExperienceItem = ({ item }: ExperienceItemProps) => {
         <span>-</span>
         <div className="end-time">{item.endDate || "Present"}</div>
       </div>
-      <div className="exp-postion flex items-center flex-wrap">
+      <div className="exp-position flex items-center flex-wrap">
         <p className="exp-position-text">{item.position}</p>
       </div>
       <div className="exp-company flex items-center flex-wrap">
@@ -38,11 +39,7 @@ const ExperienceItem = ({ item }: ExperienceItemProps) => {
         <p className="company-name">{item.company.name}</p>
         <p className="company-info">{item.company.info}</p>
       </div>
-      <div className="exp-description text">
-        {item.description.split("\n").map((i, key) => {
-          return <p key={key}>{i}</p>;
-        })}
-      </div>
+      <Description text={item.description} className="exp-description" />
       <div className="tags">
         {item.tags.map((tag, index) => (
           <span key={index} className="tag">

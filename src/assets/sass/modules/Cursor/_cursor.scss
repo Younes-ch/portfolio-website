@@ -11,3 +11,10 @@
     border-radius: 50%;
     background-color: rgba($night, 0.5);
 }
+
+// touch devices never move it, so it would sit stuck in the top-left corner
+@media (hover: none) {
+    .cursor {
+        display: none;
+    }
+}

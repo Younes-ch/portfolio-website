@@ -1,4 +1,5 @@
 import { FaLink } from "react-icons/fa";
+import Description from "../common/Description";
 
 interface ActivitiesItemProps {
   item: {
@@ -28,7 +29,7 @@ const ActivitiesItem = ({ item }: ActivitiesItemProps) => {
         <span>-</span>
         <div className="end-time">{item.endDate || "Present"}</div>
       </div>
-      <div className="act-postion flex items-center flex-wrap">
+      <div className="act-position flex items-center flex-wrap">
         <p className="act-position-text">{item.position}</p>
       </div>
       <div className="act-company flex items-center flex-wrap">
@@ -38,9 +39,7 @@ const ActivitiesItem = ({ item }: ActivitiesItemProps) => {
         <p className="company-name">{item.company.name}</p>
         <p className="company-info">{item.company.info}</p>
       </div>
-      <div className="act-description text">{item.description.split("\n").map((i, key) => {
-        return <p key={key}>{i}</p>;
-      })}</div>
+      <Description text={item.description} className="act-description" />
       <div className="tags">
         {item.tags.map((tag, index) => (
           <span key={index} className="tag">
