@@ -111,18 +111,18 @@ const DATA: DataType = {
         name: "Zouari School",
         info: "Monastir, Tunisia (Hybrid)",
       },
-      description: `Took ownership of Zouari Training, Zouari School's certified courses platform (courses, quizzes, certificates, live classes, payments), and brought it from prototype to launch readiness: 280+ commits across an ASP.NET Core (.NET 10) API, a React + TypeScript app, and the Azure infrastructure behind them.
+      description: `Took ownership of Zouari Training, Zouari School's certified courses platform (courses, quizzes, certificates, live classes, payments), and brought it from prototype to launch readiness: from the initial design to the final deployment, including the following features:
                     ● Lesson-video pipeline: trainers upload straight from the browser to Azure Blob Storage; a blob event queues a durable job that a Container Apps worker pushes to Vimeo over resumable TUS uploads, then archives the master at the cool tier. Vimeo webhooks plus a reconciliation sweep track playability, and trainers see each stage live.
                     ● Live classes on Zoom, from booking to archive: recurring sessions booked against a pool of licensed hosts, classes run inside the app through the Zoom Meeting SDK, webhooks drive status, a live roll call, and a background job moves each recording to Blob Storage and Vimeo before deleting Zoom's copy.
                     ● Cloud: moved the API from an Azure Function App to Container Apps (one image for API and workers, OIDC deploys, health-gated rollout) and uploads from local disk to Blob Storage with short-lived per-file links.
                     ● Content protection: per-student video watermark, a two-device sign-in limit, server-side lesson access checks.
                     ● Payments and access: coupons, time-limited admin grants, a full access history per enrolment.
                     ● Trilingual: French, Arabic (right-to-left) and English, enforced by lint rules.
-                    ● Test-driven throughout: ~2,300 unit and ~460 integration tests on real PostgreSQL (Testcontainers), ~1,500 frontend unit and ~370 Playwright end-to-end tests, gated in GitHub Actions.`,
+                    ● Test-driven throughout: Unit tests, Integration tests on real PostgreSQL (Testcontainers), Vitest, and Playwright end-to-end tests, gated in GitHub Actions.`,
       links: [
         {
           label: "Zouari School",
-          url: "https://zouarischool.org/",
+          url: "https://zouari.training/",
         },
       ],
       tags: ["C#", ".NET", "ASP.NET Core", "EF Core", "PostgreSQL", "React", "TypeScript", "Tailwind", "Azure", "Vimeo", "Zoom", "Docker", "Github Actions"],
@@ -138,7 +138,7 @@ const DATA: DataType = {
         info: "Monastir, Tunisia (Hybrid)",
       },
       description: `● Redesigned the admin dashboard on the school management platform to improve speed and usability.
-                    ● Resolved performance issues on high-traffic pages, reducing page load requests from over 100 to 4 in some cases.
+                    ● Resolved performance issues on high-traffic pages, reducing page load time by up to 90% in some key workflows.
                     ● Developed new features including payment expiry alerts, activity statistics with charts and filters, and subscription management tools. Implemented automated code quality checks for enhanced team productivity.`,
       links: [
         {
