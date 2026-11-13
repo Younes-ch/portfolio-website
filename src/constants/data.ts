@@ -121,7 +121,7 @@ const DATA: DataType = {
                     ● Test-driven throughout: Unit tests, Integration tests on real PostgreSQL (Testcontainers), Vitest, and Playwright end-to-end tests, gated in GitHub Actions.`,
       links: [
         {
-          label: "Zouari School",
+          label: "Zouari Training",
           url: "https://zouari.training/",
         },
       ],
